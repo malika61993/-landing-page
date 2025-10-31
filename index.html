@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover elegant, handcrafted accessories at Malika Accessories. Premium quality jewelry including necklaces, bracelets, and earrings." />
+    <meta name="keywords" content="Malika Accessories, jewelry, handcrafted accessories, necklaces, bracelets, earrings, luxury accessories, moroccan jewelry, designer jewelry, fashion accessories, handmade jewelry, crystal bracelet, pearl earrings, elegant necklaces, gold rings, silver anklets, diamond pendants, traditional moroccan jewelry, artisanal jewelry, premium accessories, women's accessories, wedding jewelry, gift jewelry, custom jewelry, fashion jewelry, luxury fashion, moroccan style, moroccan crafts, artisan jewelry" />
+    <meta name="author" content="Malika Accessories" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://malikaaccessories.com/" />
+    <meta property="og:title" content="Malika Accessories - Elegant Handcrafted Jewelry" />
+    <meta property="og:description" content="Discover our collection of premium handcrafted accessories. Elevate your style with Malika Accessories." />
+    <meta property="og:image" content="https://malikaaccessories.com/images/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://malikaaccessories.com/" />
+    <meta name="twitter:title" content="Malika Accessories - Elegant Handcrafted Jewelry" />
+    <meta name="twitter:description" content="Discover our collection of premium handcrafted accessories. Elevate your style with Malika Accessories." />
+    <meta name="twitter:image" content="https://malikaaccessories.com/images/twitter-image.jpg" />
+
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#7C3AED" />
+    
+    <!-- iOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <title>Malika Accessories - Brand Identity</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            transition: opacity 0.3s ease;
+        }
+        .nav-logo:hover {
+            opacity: 0.9;
+        }
+        .nav-logo img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#home" class="flex items-center space-x-3 hover:opacity-90 transition-opacity">
+                    <img src="./images/logo.png" alt="Malika Accessories Logo" class="h-12 w-auto">
+                    <span class="text-2xl font-bold text-purple-600">Malika Accessories</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-purple-600">Home</a>
+                    <a href="#about" class="hover:text-purple-600">About</a>
+                    <a href="#collection" class="hover:text-purple-600">Collection</a>
+                    <a href="#contact" class="hover:text-purple-600">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 hover:bg-purple-100">Home</a>
+                <a href="#about" class="block px-3 py-2 hover:bg-purple-100">About</a>
+                <a href="#collection" class="block px-3 py-2 hover:bg-purple-100">Collection</a>
+                <a href="#contact" class="block px-3 py-2 hover:bg-purple-100">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20">
+        <div class="container mx-auto px-4 py-32">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2">
+                    <h1 class="text-5xl font-bold mb-6">Discover Elegance with Malika Accessories</h1>
+                    <p class="text-xl mb-8">Elevate your style with our exquisite collection of handcrafted accessories.</p>
+                    <button class="bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition">
+                        Explore Collection
+                    </button>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <div class="bg-purple-200 rounded-full h-96 w-96 mx-auto"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Brand Story</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i class="fas fa-gem text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Premium Quality</h3>
+                    <p>Crafted with attention to detail and finest materials</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-heart text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Handmade with Love</h3>
+                    <p>Each piece tells a unique story of artisanal craftsmanship</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-star text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Unique Design</h3>
+                    <p>Stand out with our exclusive and trendy designs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Collection</h2>
+            <div class="grid md:grid-cols-3 gap-8" id="collection-grid">
+                <!-- Collection items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Get in Touch</h2>
+            <div class="max-w-lg mx-auto">
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label class="block mb-2">Name</label>
+                        <input type="text" class="w-full px-4 py-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label class="block mb-2">Email</label>
+                        <input type="email" class="w-full px-4 py-2 border rounded" required>
+                    </div>
+                    <div>
+                        <label class="block mb-2">Message</label>
+                        <textarea class="w-full px-4 py-2 border rounded h-32" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700 transition">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Malika Accessories</h3>
+                    <p>Bringing elegance to your everyday style</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <p>Email: info@malika.com</p>
+                    <p>Phone: +1 234 567 890</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-purple-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-purple-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-purple-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p>&copy; 2025 Malika Accessories. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
