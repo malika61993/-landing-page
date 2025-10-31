@@ -11,7 +11,7 @@ const collectionItems = [
     {
         name: 'Elegant Necklace',
         price: '1299 MAD',
-        image: 'https://source.unsplash.com/featured/300x300/?necklace,necklaces',
+        image: 'image.png',
         category: 'Necklaces'
     },
     {
