@@ -42,21 +42,21 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(45deg, rgba(168, 85, 247, 0.05) 0%, rgba(168, 85, 247, 0.1) 100%);
+    background: linear-gradient(45deg, rgba(196, 218, 160, 0.05) 0%, rgba(157, 120, 191, 0.1) 100%);
     z-index: -1;
 }
 
 /* Collection item hover effects */
 .collection-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.2);
+    box-shadow: 0 4px 20px rgba(190, 145, 232, 0.2);
 }
 
 /* Custom form styling */
 input:focus, textarea:focus {
     outline: none;
-    border-color: #9333ea;
-    box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.2);
+    border-color: #c0b46f;
+    box-shadow: 0 0 0 2px rgba(180, 113, 243, 0.2);
 }
 
 /* Mobile menu transition */
@@ -76,5 +76,5 @@ input:focus, textarea:focus {
 /* Custom button hover effect */
 .hover\:bg-purple-700:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+    box-shadow: 0 4px 12px rgba(220, 194, 243, 0.3);
 }

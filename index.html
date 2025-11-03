@@ -23,7 +23,7 @@
     <meta name="twitter:image" content="https://malikaaccessories.com/images/twitter-image.jpg" />
 
     <!-- Theme Color for Mobile Browsers -->
-    <meta name="theme-color" content="#7C3AED" />
+    <meta name="theme-color" content="#c0b46f" />
     
     <!-- iOS Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -63,6 +63,19 @@
             width: auto;
             object-fit: contain;
         }
+        .nav-brand {
+            font-family: 'Great Vibes', cursive;
+            color: #c0b46f;
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+        .nav-links {
+            font-family: 'Great Vibes', cursive;
+            font-size: 1.5rem;
+        }
+        .nav-links a {
+            transition: color 0.3s ease;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -72,9 +85,9 @@
             <div class="flex justify-between items-center py-4">
                 <a href="#home" class="flex items-center space-x-3 hover:opacity-90 transition-opacity">
                     <img src="./images/logo.png" alt="Malika Accessories Logo" class="h-12 w-auto">
-                    <span class="text-2xl font-bold text-purple-600">Malika Accessories</span>
+                    <span class="nav-brand">Malika Accessories</span>
                 </a>
-                <div class="hidden md:flex space-x-8">
+                <div class="hidden md:flex space-x-8 nav-links">
                     <a href="#home" class="hover:text-purple-600">Home</a>
                     <a href="#about" class="hover:text-purple-600">About</a>
                     <a href="#collection" class="hover:text-purple-600">Collection</a>
@@ -87,7 +100,7 @@
         </div>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1">
+            <div class="px-2 pt-2 pb-3 space-y-1 nav-links">
                 <a href="#home" class="block px-3 py-2 hover:bg-purple-100">Home</a>
                 <a href="#about" class="block px-3 py-2 hover:bg-purple-100">About</a>
                 <a href="#collection" class="block px-3 py-2 hover:bg-purple-100">Collection</a>
@@ -103,7 +116,7 @@
                 <div class="md:w-1/2">
                     <h1 class="hero-title mb-6">Discover Elegance with Malika Accessories</h1>
                     <p class="hero-subtitle mb-8">Elevate your style with our exquisite collection of handcrafted accessories.</p>
-                    <button class="bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition">
+                    <button class="bg-purple--600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition">
                         Explore Collection
                     </button>
                 </div>
